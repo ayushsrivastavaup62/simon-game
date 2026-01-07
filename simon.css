@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: rgba(47, 79, 79, 0.726);
+    /* background-image: url("todo.png"); */
+}
+
+.btn{
+    height:200px;
+    width: 200px;
+    border-radius:20%;
+    border: 10px solid black;
+    margin: 1rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.green{
+     background-color: #819ff0;
+
+}
+.purple{
+    background-color: rgba(121, 39, 121, 0.767);
+}
+.red{
+       background-color:#d95980;
+}
+.btnflash {
+  box-shadow: 0 0 20px black;
+  transform: scale(1.2);
+  transition-delay:0.4;
+  background-color: red;
+
+
+}
+.end{
+
+
+    background-color: red;
+    
+}
